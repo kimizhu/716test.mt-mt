@@ -1,0 +1,41 @@
+{
+  "build_entry_point": "docs",
+  "docsets_to_publish": [
+    {
+      "docset_name": "716test",
+      "build_source_folder": "716test",
+      "build_output_subfolder": "716test",
+      "locale": "mt-mt",
+      "open_to_public_contributors": false,
+      "version": 0
+    }
+  ],
+  "notification_subscribers": [],
+  "branches_to_filter": [
+    "live-sxs",
+    "master-sxs"
+  ],
+  "continue_with_document_error": true,
+  "skip_source_output_uploading": false,
+  "need_preview_pull_request": true,
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft.mt-mt",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/kimizhu/716test",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
+    }
+  ],
+  "need_generate_pdf_url_template": false,
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false
+}
